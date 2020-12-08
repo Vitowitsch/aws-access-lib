@@ -17,4 +17,4 @@ AWS-S3 and AWS-Athena resources are monkeypatched using *unittest*.
 
 Yet the test-runner is *pytest* which support unitest-based tests out-of-the-box.
 
-```$ poetry install```
+```$ poetry run pytest```
