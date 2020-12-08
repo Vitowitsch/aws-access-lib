@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "py-aws-access"
+version = "0.1.0"
+description = "aws access lib with mocking for athena and s3"
+authors = ["Veit Wehner"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+boto3 = "moto"
+moto = "^1.3.16"
+pandas = "^1.1.5"
+pyathenajdbc = "^2.1.1"
+python-dotenv = "^0.15.0"
+unittest = "^0.0"
+attrs = "^20.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
